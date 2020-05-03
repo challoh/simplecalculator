@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 1"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/txtnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="108dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 2"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/txtnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/btnaddd"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:text="Add"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:text="multiply"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="103dp"
+        android:layout_height="63dp"
+        android:text="subtract"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:text="divide"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Records"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:id="@+id/txtnum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="656dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
